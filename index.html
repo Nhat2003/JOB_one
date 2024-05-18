@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adhsdsd</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile</title>
 </head>
+
 <body>
-    
+            
+    <div class="header h-24 flex items-center">
+        <div class=" grid grid-cols-3 w-full">
+            <div class=" text-3xl text-[#29A688] font-bold col-span-1 text-center">PORTFOLIO</div>
+            <div class="grid grid-cols-4 col-span-2">
+                <div class="text-xl text-center">About</div>
+                <div class="text-xl text-center">Review</div>
+                <div class="text-xl text-center">Project</div>
+                <div class="text-xl text-center">Contact</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-[644px] bg-[#F2EDE7]">
+        <div class="grid grid-cols-2 container mx-auto pt-24 gap-10">
+            <div class="left pl-[90px] items-center ">
+              <div class=" left-son  item-center flex flex-col justify-center">
+                <p class="text-transparent text-5xl uppercase text-t1 font-bold">Dang Nguyen</p>
+                <p class="text-5xl text-[#29A688] uppercase font-bold pt-3">Minh Anh</p>
+                <p class="text-xl font-bold pt-5">Hi, I'm Minh Anh, freelance visual graphic designer based in Hanoi, Vietnam</p>
+                 <button class="bg-[#29A688] hover:bg-violet-600 text-white font-bold py-5 px-10 rounded-lg uppercase text-xl mt-10 " >Contact</button>
+                 <div class="mt-10 flex items-center flowme">
+                    <p class="text-lg">Follow me on:</p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  
+            </div>
+              </div>
+
+            <div class="right flex justify-center">
+                <img  src="./img/Ellipse 1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="what-i-do mt-20">
+        <h1 class="text-4xl text-black font-bold uppercase flex justify-center ">what i do</h1>
+        <div class="flex justify-center">
+            <div class="container">
+                <div class="grid grid-cols-4 gap-20">
+                    <div class="h-[250px] w-[250px] bg-[#29A688] flex justify-center items-center text-white text-xl font-bold mt-20">Graphic Degin</div>
+                    <div class="h-[250px] w-[250px] bg-[#29A688] flex justify-center items-center text-white text-xl font-bold mt-20">Web Degin</div>
+                    <div class="h-[250px] w-[250px] bg-[#29A688] flex justify-center items-center text-white text-xl font-bold mt-20">Brand Degin</div>
+                    <div class="h-[250px] w-[250px] bg-[#29A688] flex justify-center items-center text-white text-xl font-bold mt-20">Product Degin</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill mt-24 bg-[#F2EDE7]  ">
+        <h1 class="text-4xl text-black font-bold uppercase flex justify-center pt-20">PROFESSIONAL SKILLS</h1>
+        
+        <div class="flex justify-center">
+            <div class="grid grid-cols-3 gap-[12rem] pt-20 flex justify-center text-center">
+                <h1 class="text-xl text-black font-bold uppercase ">illustration</h1>
+                <h1 class="text-xl text-black font-bold uppercase ">photoshop</h1>
+                <h1 class="text-xl text-black font-bold uppercase ">video editting</h1>
+            </div>
+        </div>        
+        <div class="flex justify-center">
+
+            <div class="container flex justify-center">
+                
+               
+
+                <div class="grid grid-cols-3 gap-24 pb-40 ">
+                    <div class="h-[250px] w-[250px] flex justify-center items-center text-white text-xl font-bold mt-20 overflow-hidden rounded-[45px] skill_1 ">
+                        
+                        <img  class="rounded-[45px]" src="./img/skill1.jpg" alt="">
+                    </div>
+                    <div class="h-[250px] w-[250px]  flex justify-center items-center text-white text-xl font-bold mt-20  overflow-hidden rounded-[45px] skill_1">
+                        <img class="rounded-[45px]" src="./img/skill2.jpg" alt="">
+                    </div>
+                    <div class="h-[250px] w-[250px]  flex justify-center items-center text-white text-xl font-bold mt-20  overflow-hidden rounded-[45px] skill_1 ">
+                        <img class="rounded-[45px]" src="./img/OIP.jfif" alt="">
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
 </body>
 </html>
