@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="font-sans bg-black">
-    <div class="header h-24 flex items-center bg-black">
+    <div class="header py-4 flex items-center bg-black">
         <div class=" grid grid-cols-4 w-full">
-            <div class=" text-3xl text-[#29A688] font-bold col-span-1 text-center">YourName</div>
-            <div class="grid grid-cols-4 text-white col-span-2  flex justify-center items-center    ">
+            <div class=" text-3xl text-[#29A688] font-bold col-span-4 lg:col-span-1 text-center">YourName</div>
+            <div class="grid grid-cols-4 text-white col-span-3 lg:col-span-2 flex justify-center items-center ">
                 <div class="text-xl text-center">Trang chủ</div>
                 <div class="text-xl text-center">phim HOT</div>
                 <div class="text-xl text-center">Độc quyền</div>
@@ -22,7 +22,7 @@
             <div class="flex justify-end text-white items-center pr-10">
                 <i class="fa-regular fa-bell text-3xl pr-3 "></i>
                 <div class="search relative">
-                    <input type="text" name="" class="h-10 rounded-lg text-black text-xl pl-2 pr-11 w-[200px]">
+                    <input type="text" name="" class="h-10 rounded-lg text-black text-xl pl-2 pr-11 w-[200px] hidden lg:block">
                    <i class="fa-solid fa-magnifying-glass text-black absolute right-5 top-3 text-[20px]"></i>
                 </div>
                 <a href="./Login.html"><i class="fa-regular fa-circle-user pl-3 text-3xl"></i></a>
@@ -31,17 +31,17 @@
     </div>
 
     <div class="content_top w-full h-[700px]">
-        <img class="h-full w-full " src="/JOB_two/img/home1.png" alt="">
+        <img class="h-full w-full object-cover " src="/JOB_two/img/home1.png" alt="">
     </div>
     <div class="content_mid grid grid-cols-6 mt-10 ">
         <div class="col-span-1"></div>
-        <div class="col-span-1 flex flex-col justify-center pl-6">
+        <div class="col-span-6 lg:col-span-1 flex flex-col justify-center pl-6">
             <p class="text-white font-bold text-lg">Giải trí online không giới hạn hàng nghìn giờ nội dung đậm chất Việt Nam</p>
             <button class="bg-black hover:bg-white hover:text-black  text-white font-bold py-4 px-4 rounded-xl uppercase text-lg mt-10 border border-white">Đăng ký ngay</button></button>
         </div>
-        <div class="col-span-3 px-5 ">
+        <div class="col-span-6 lg:col-span-3 mt-24 lg:mt-0 px-5 ">
             <div class="grid grid-rows-2 gap-10 ">
-                <div class="grid grid-cols-3 gap-5 " style="display: flex;justify-content: center;" >
+                <div class="grid grid-cols-3  gap-5 " style="display: flex;justify-content: center;" >
                     <img src="/JOB_two/img/phim1.png" alt="" class="h-[200px] w-[150px] rounded-xl">
                     <img src="/JOB_two/img/phim2.png" alt="" class="h-[240px] w-[200px] rounded-xl -translate-y-[80px]">
                     <img src="/JOB_two/img/phim3.png" alt="" class="h-[200px] w-[150px] rounded-xl">
@@ -63,7 +63,7 @@
       <div class="content_mid_bot ">
         <h1 class="text-white font-bold text-xl flex justify-center mb-5">Những cách thưởng thức</h1>
         <div class="grid grid-rows-2">
-            <div class="grid grid-cols-2 px-[200px] mt-5">
+            <div class="grid grid-cols-2 px-10 lg:px-[200px]  mt-5">
                 <div class="">
                     <div class="flex justify-center">
                         <img class="w-[500px]" src="/JOB_two/img/phim7.png" alt="">
@@ -93,11 +93,11 @@
       </div>
 
       <div class="content-bot grid grid-cols-2 mt-10 px-20 gap-5 mb-10" >
-        <div class="flex justify-end">
+        <div class="flex justify-center col-span-2 lg:col-span-1 lg:justify-center" >
             <img class="w-[445px]" src="/JOB_two/img/phim10.png" alt="">
         </div>
-        <div class="grid grid-rows-2 ">
-            <div class="text-white w-[445px]">
+        <div class="grid grid-rows-2 col-span-2 lg:col-span-1 lg:flex justify-center  ">
+            <div class="text-white w-[445px]  ">
                 <h1 class="text-white font-bold text-2xl  mb-4">Không chèn quảng cáo khi xem phim</h1>
                 <p>Tận hưởng trọn vẹn, không gián đoạn mỗi phút giây cảm xúc khi thưởng thức bộ phim yêu thích.</p>
             </div>
